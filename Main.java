@@ -29,9 +29,53 @@ public class Main {
       double gpa = 3.4;
       boolean isSnowy = false;
 
+      // ARITHEMTIC OPERATORS 
+      System.out.println(2 + 3);
+      System.out.println(2 - 3);
+      System.out.println(2 * 3);
+      System.out.println(2 / 3); // returns 0
 
+      // IMPORTANT: if you divide two INTEGERS, you will get an int eesult
+      // this is called "integer division" and it TRUNCATES (chops off)
+      // the decimal part after dividing 
+      System.out.println(2.0 / 3); // returns 0.6666666
 
+      // == is to test while = is to assign
+      System.out.println(2 == 3); // returns false (boolean)
 
+      // != is to test if NOT equal 
+      System.out.println(2 != 3); // returns true 
+
+      // % operator returns the REMAINDER after division
+      System.out.println(16 % 2); // returns 0 (even number)
+      System.out.println(17 % 2); // returns 1 (odd number)
+
+      System.out.println(17 % 5); //returns 2 
+
+      // COMPOUND ASSIGNMENT OPERATORS (shortcuts)
+      int score = 0;
+      
+      // long way to increase value of score by one
+      score = score + 1;
+      System.out.println(score);
+
+      // shortcut addition assignment 
+      score += 5;
+      System.out.println (score); // score is now 6
+
+      // increment operator (only works for changes by 1)
+      score++;
+      System.out.println(score); // score is now 7
+      
+      score--;
+      System.out.println(score); // score is back to 6
+
+      // there are shortcuts for multiplication and division too
+      score /= 3; // returns 2, same operation as score = score/3
+      System.out.println(score); 
+
+      score *= 732; // retuns 1464, same op. as score = score*732
+      System.out.println(score);
 
    }
 }
